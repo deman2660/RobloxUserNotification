@@ -7,7 +7,7 @@ import sys
 url = str(input("Enter Profile URL:"))
 
 while True: 
-    print('Beginning file download with requests')
+    print('User is online.')
     
     r = requests.get(url)
     with open('/Users/Computer/Desktop/Notification/[profile.txt', 'wb') as f: #change this location to match yours!!
